@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.main-div{
+            margin-top: 10px;
+            margin-left: 30%;
+            margin-right: 30%;
+            border: 1px black solid;
+            background-color: aquamarine;       
+         }
+        div.main-div div{
+            margin-top: 10px;
+            margin-left: 5px;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="post">   <!--Two type of method . POST:- data will encrepted to formal to the mentioned in action .  get:- same but not encripted-->
+        <div class="main-div">
+            <div>
+                <label for="First N">First name </label><br> <!--For and id should be same if i click on text or box both work-->
+                <input type="text" id="First N"><br>
+            </div>
+       <div>
+        <label for="Last N">Last name</label> <br>
+        <input type="text" id="Last N"> <br>
+       </div>
+       <div>
+        <input type="radio" id="male" name="Gender"  value="Male"> <!-- if i choose same name both box salected -->
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="Gender" value="Female">
+        <label for="female">Female</label>
+       </div>
+        
+        <div>
+            <label for=""> Choose Hobby</label><br>
+            <input type="checkbox" name="hobby" id="Bike" value="bike">
+            <label for="bike">Bike</label>
+            <input type="checkbox" name="hobby" id="car" value ="Car">
+            <label for="car">Car</label>
+
+        </div>
+        <div>
+
+            <input type="submit" value="Click here" name="" id=""> <!--value is change name for button-->
+        </div>
+        
+    </div></form>
+</body>
+</html>

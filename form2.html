@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="none">
+        
+        <label for="">Select your hobby</label> <br>
+        <input type="checkbox" id="id1" value="Bike Riding" name = 'Hobby' disabled>   <!--Value that is go to sever end--> <!--disabled is for you cant select-->
+        <label for="id1">Bike Riding</label>
+        <input type="checkbox" name="Hobby" id="id2" value="Car Driving">
+        <label for="id2">Car Driving</label>
+    </form>
+
+    <form action="OIP.jpg" target="frame1" autocomplete="on">
+        <div>
+            <label for="">UID</label><br>
+            <input type="text" id="UID" name="UID"><br>
+            <label for="id2">Password</label><br>
+            <input type="password" name="" id="id2"><br>
+            
+        </div>
+        
+        <div>
+            <legend>Persnal Information </legend>
+            <select name="list1" id="id1" multiple>
+                <option value="Select">Select</option>
+                <option value="2">Car</option>
+                <option value="3">Bike</option>
+                <option value="4">Cycle</option>
+                <option value="Auo">Auto</option>
+                <option value="">E-Cycle</option>
+            </select>
+        </div>
+        <textarea name="" id="" cols="30" rows="10">
+            Some default text
+        </textarea>
+        
+    </form>
+    <iframe src="download.jpg" frameborder="0" name="frame1"></iframe>
+    <div>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset" id="id3"><br>
+    </div>
+    <input type="button" value="SUBMIT" onclick="alert('Are you sure')">
+</body>
+</html>
